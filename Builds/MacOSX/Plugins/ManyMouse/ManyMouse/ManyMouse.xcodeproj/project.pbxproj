@@ -1,0 +1,330 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD4B53961F8CF5D100D9D9B9 /* test_manymouse_stdio.c in Sources */ = {isa = PBXBuildFile; fileRef = BD4B538E1F8CF5D100D9D9B9 /* test_manymouse_stdio.c */; };
+		BD4B539F1F8CF7CD00D9D9B9 /* Plugin_Debug.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BD4B539E1F8CF7CD00D9D9B9 /* Plugin_Debug.xcconfig */; };
+		BD4B53A11F8CF7DB00D9D9B9 /* Plugin_Release.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = BD4B53A01F8CF7DB00D9D9B9 /* Plugin_Release.xcconfig */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BD4B53821F8CF59D00D9D9B9 /* ManyMouse.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManyMouse.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD4B53851F8CF59D00D9D9B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD4B538E1F8CF5D100D9D9B9 /* test_manymouse_stdio.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; name = test_manymouse_stdio.c; path = ../../../../../../../Source/Plugins/ManyMouse/test_manymouse_stdio.c; sourceTree = "<group>"; };
+		BD4B539E1F8CF7CD00D9D9B9 /* Plugin_Debug.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Plugin_Debug.xcconfig; path = ../../../Config/Plugin_Debug.xcconfig; sourceTree = "<group>"; };
+		BD4B53A01F8CF7DB00D9D9B9 /* Plugin_Release.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; name = Plugin_Release.xcconfig; path = ../../../Config/Plugin_Release.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD4B537F1F8CF59D00D9D9B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD4B53791F8CF59D00D9D9B9 = {
+			isa = PBXGroup;
+			children = (
+				BD4B539D1F8CF7B600D9D9B9 /* Config */,
+				BD4B53841F8CF59D00D9D9B9 /* ManyMouse */,
+				BD4B53831F8CF59D00D9D9B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD4B53831F8CF59D00D9D9B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B53821F8CF59D00D9D9B9 /* ManyMouse.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD4B53841F8CF59D00D9D9B9 /* ManyMouse */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B538B1F8CF5A900D9D9B9 /* Source */,
+				BD4B53851F8CF59D00D9D9B9 /* Info.plist */,
+			);
+			path = ManyMouse;
+			sourceTree = "<group>";
+		};
+		BD4B538B1F8CF5A900D9D9B9 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B538E1F8CF5D100D9D9B9 /* test_manymouse_stdio.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		BD4B539D1F8CF7B600D9D9B9 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BD4B53A01F8CF7DB00D9D9B9 /* Plugin_Release.xcconfig */,
+				BD4B539E1F8CF7CD00D9D9B9 /* Plugin_Debug.xcconfig */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD4B53811F8CF59D00D9D9B9 /* ManyMouse */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD4B53881F8CF59D00D9D9B9 /* Build configuration list for PBXNativeTarget "ManyMouse" */;
+			buildPhases = (
+				BD4B537E1F8CF59D00D9D9B9 /* Sources */,
+				BD4B537F1F8CF59D00D9D9B9 /* Frameworks */,
+				BD4B53801F8CF59D00D9D9B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ManyMouse;
+			productName = ManyMouse;
+			productReference = BD4B53821F8CF59D00D9D9B9 /* ManyMouse.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD4B537A1F8CF59D00D9D9B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Espen Hagen";
+				TargetAttributes = {
+					BD4B53811F8CF59D00D9D9B9 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = BD4B537D1F8CF59D00D9D9B9 /* Build configuration list for PBXProject "ManyMouse" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD4B53791F8CF59D00D9D9B9;
+			productRefGroup = BD4B53831F8CF59D00D9D9B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD4B53811F8CF59D00D9D9B9 /* ManyMouse */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BD4B53801F8CF59D00D9D9B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B539F1F8CF7CD00D9D9B9 /* Plugin_Debug.xcconfig in Resources */,
+				BD4B53A11F8CF7DB00D9D9B9 /* Plugin_Release.xcconfig in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD4B537E1F8CF59D00D9D9B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD4B53961F8CF5D100D9D9B9 /* test_manymouse_stdio.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD4B53861F8CF59D00D9D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD4B53871F8CF59D00D9D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD4B53891F8CF59D00D9D9B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WY3GDEKNZY;
+				GCC_PREPROCESSOR_DEFINITIONS = OEPLUGIN;
+				HEADER_SEARCH_PATHS = (
+					"/Users/ehagen/Repositories/plugin-GUI/Source/Plugins/Headers",
+					"/Users/ehagen/Repositories/plugin-GUI/Source/Plugins/ManyMouse",
+				);
+				INFOPLIST_FILE = ManyMouse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CINPLA.ManyMouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-inconsistent-missing-override";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		BD4B538A1F8CF59D00D9D9B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = WY3GDEKNZY;
+				GCC_PREPROCESSOR_DEFINITIONS = OEPLUGIN;
+				HEADER_SEARCH_PATHS = (
+					"/Users/ehagen/Repositories/plugin-GUI/Source/Plugins/Headers",
+					"/Users/ehagen/Repositories/plugin-GUI/Source/Plugins/ManyMouse",
+				);
+				INFOPLIST_FILE = ManyMouse/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				OTHER_LDFLAGS = (
+					"-undefined",
+					dynamic_lookup,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = CINPLA.ManyMouse;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				WARNING_CFLAGS = "-Wno-inconsistent-missing-override";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD4B537D1F8CF59D00D9D9B9 /* Build configuration list for PBXProject "ManyMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B53861F8CF59D00D9D9B9 /* Debug */,
+				BD4B53871F8CF59D00D9D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD4B53881F8CF59D00D9D9B9 /* Build configuration list for PBXNativeTarget "ManyMouse" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD4B53891F8CF59D00D9D9B9 /* Debug */,
+				BD4B538A1F8CF59D00D9D9B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD4B537A1F8CF59D00D9D9B9 /* Project object */;
+}
