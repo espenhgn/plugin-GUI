@@ -45,19 +45,19 @@ int main(int argc, char **argv)
         {
             if (event.type == MANYMOUSE_EVENT_RELMOTION)
             {
-                printf("Mouse #%u relative motion %s %d\n", event.device,
+                printf("#%u rel. motion %s %d\n", event.device,
                         event.item == 0 ? "X" : "Y", event.value);
             }
 
             else if (event.type == MANYMOUSE_EVENT_ABSMOTION)
             {
-                printf("Mouse #%u absolute motion %s %d\n", event.device,
+                printf("#%u abs. motion %s %d\n", event.device,
                         event.item == 0 ? "X" : "Y", event.value);
             }
 
             else if (event.type == MANYMOUSE_EVENT_BUTTON)
             {
-                printf("Mouse #%u button %u %s\n", event.device,
+                printf("#%u button %u %s\n", event.device,
                         event.item, event.value ? "down" : "up");
             }
 
@@ -75,16 +75,16 @@ int main(int argc, char **argv)
                     wheel = "horizontal";
                     direction = ((event.value > 0) ? "right" : "left");
                 }
-                printf("Mouse #%u wheel %s %s\n", event.device,
+                printf("#%u wheel %s %s\n", event.device,
                         wheel, direction);
             }
 
             else if (event.type == MANYMOUSE_EVENT_DISCONNECT)
-                printf("Mouse #%u disconnect\n", event.device);
+                printf("#%u disconnect\n", event.device);
 
             else
             {
-                printf("Mouse #%u unhandled event type %d\n", event.device,
+                printf("#%u unhandled event type %d\n", event.device,
                         event.type);
             }
         }
